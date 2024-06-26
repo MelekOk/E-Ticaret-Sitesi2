@@ -1,0 +1,594 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-ticaret</title>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.png" />
+                </a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        style="background-color:black">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-left">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Anasayfa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="hakkimizda.html" class="nav-link">Hakkımızda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Kategoriler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Nasıl Çalışır</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">İletişim</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-right">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item-kayit">
+                                <a href="#" class="nav-link">Ücretsiz Kayıt Ol</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn-giris">Giriş Yap</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="nav-header-bottom">
+                    <ul>
+                        <li>
+                            <a href="#">Pisikoloji</a>
+                        </li>
+                        <li>
+                            <a href="#">Eğitim</a>
+                        </li>
+                        <li>
+                            <a href="#">Spor & Beslenme</a>
+                        </li>
+                        <li>
+                            <a href="#">Kişisel Gelişim</a>
+                        </li>
+                        <li>
+                            <a href="#">Teknoloji & Tasarım</a>
+                        </li>
+                        <li>
+                            <a href="#">İş & Ticaret</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <input type="button" class="search_btn" />
+                    <input type="text" class="search_textbox" id="search_textbox" placeholder="Ne aramak istiyorsunuz?" />
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="line-container">
+            <div class="line" id="animatedLine"></div>
+        </div>
+    </header>
+    <main>
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="banner-wrapper-content">
+                            <h1>Tüm ihtiyaçların için</h1>
+                            <h2>Uzmanını Bulalım</h2>
+                            <p>Alanlarında yetkin uzmanlar arasından ihtiyacına uygun hizmeti seçelim ve danışmanını bulalım</p>
+                            <form>
+                                <input type="text" class="input-search" placeholder="Hangi konuda destek almak istersin?" value="">
+                                <button type="submit">Şimdi Ara</button>
+                            </form>
+                            <ul class="popular-search-list">
+                                <li><span>Popüler Aramalar:</span></li>
+                                <li><h3 style="font-size:15px"><a href="#">Psikoloji</a></h3></li>
+                                <li><h3 style="font-size:15px"><a href="#">Eğitim</a></h3></li>
+                                <li><h3 style="font-size:15px"><a href="#">Kişisel Gelişim</a></h3></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="banner-wrapper-image"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="container">
+            <div class="col-12">
+                <div class="col-2">
+                    <img src="https://picsum.photos/100/80" />
+                    <div class="content"><h3>Psikoloji</h3></div>
+                    <a href="#"><span class="link-btn"></span></a>
+                </div>
+                <div class="col-2">
+                    <img src="https://picsum.photos/100/80" />
+                    <div class="content"><h3>Eğitim</h3></div>
+                    <a href="#"><span class="link-btn"></span></a>
+                </div>
+                <div class="col-2">
+                    <img src="https://picsum.photos/100/80" />
+                    <div class="content"><h3>Spor & Beslenme</h3></div>
+                    <a href="#"><span class="link-btn"></span></a>
+                </div>
+                <div class="col-2">
+                    <img src="https://picsum.photos/100/80" />
+                    <div class="content"><h3>Kişisel Gelişim</h3></div>
+                    <a href="#"><span class="link-btn"></span></a>
+                </div>
+                <div class="col-2">
+                    <img src="https://picsum.photos/100/80" />
+                    <div class="content"><h3>Teknoloji & Tasarım</h3></div>
+                    <a href="#"><span class="link-btn"></span></a>
+                </div>
+                <div class="col-2">
+                    <img src="https://picsum.photos/100/80" />
+                    <div class="content"><h3>İş & Ticaret</h3></div>
+                    <a href="#"><span class="link-btn"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-title">
+                <h2 class="text-green">Alanında En İyi Uzmanlardan Randevu Oluşturun</h2>
+                <p>İhtiyacınız olduğu her anda randevu oluşturmak Uzmanlio’yla çok kolay! Görüşmek istediğin uzmanı seç, hemen randevunu oluştur.</p>
+            </div>
+            <div class="container my-4">
+                <div class="row">
+                    <div class="col-lg-3 mb-3">
+                        <div class="card">
+                            <img src="https://picsum.photos/100/80"
+                                 class="card-img-top"
+                                 alt="Resim" />
+                            <div class="card-body">
+                                <h5 class="card-title">İsim Soyisim</h5>
+                                <p class="card-text">
+                                    Eğitmen<br />
+                                    Eğitim<br />
+                                </p>
+                                <button class="btn-tl">
+                                    100 TL/ Saat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="card">
+                            <img src="https://picsum.photos/100/80"
+                                 class="card-img-top"
+                                 alt="Resim" />
+                            <div class="card-body">
+                                <h5 class="card-title">İsim Soyisim</h5>
+                                <p class="card-text">
+                                    Eğitmen<br />
+                                    Eğitim<br />
+                                </p>
+                                <button class="btn-tl">
+                                    100 TL/ Saat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="card">
+                            <img src="https://picsum.photos/100/80"
+                                 class="card-img-top"
+                                 alt="Resim" />
+                            <div class="card-body">
+                                <h5 class="card-title">İsim Soyisim</h5>
+                                <p class="card-text">
+                                    Eğitmen<br />
+                                    Eğitim<br />
+                                </p>
+                                <button class="btn-tl">
+                                    100 TL/ Saat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="card">
+                            <img src="https://picsum.photos/100/80"
+                                 class="card-img-top"
+                                 alt="Resim" />
+                            <div class="card-body">
+                                <h5 class="card-title">İsim Soyisim</h5>
+                                <p class="card-text">
+                                    Eğitmen<br />
+                                    Eğitim<br />
+                                </p>
+                                <button class="btn-tl">
+                                    100 TL/ Saat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="card">
+                            <img src="https://picsum.photos/100/80"
+                                 class="card-img-top"
+                                 alt="Resim" />
+                            <div class="card-body">
+                                <h5 class="card-title">İsim Soyisim</h5>
+                                <p class="card-text">
+                                    Eğitmen<br />
+                                    Eğitim<br />
+                                </p>
+                                <button class="btn-tl">
+                                    100 TL/ Saat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="card">
+                            <img src="https://picsum.photos/100/80"
+                                 class="card-img-top"
+                                 alt="Resim" />
+                            <div class="card-body">
+                                <h5 class="card-title">İsim Soyisim</h5>
+                                <p class="card-text">
+                                    Eğitmen<br />
+                                    Eğitim<br />
+                                </p>
+                                <button class="btn-tl">
+                                    100 TL/ Saat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="card">
+                            <img src="https://picsum.photos/100/80"
+                                 class="card-img-top"
+                                 alt="Resim" />
+                            <div class="card-body">
+                                <h5 class="card-title">İsim Soyisim</h5>
+                                <p class="card-text">
+                                    Eğitmen<br />
+                                    Eğitim<br />
+                                </p>
+                                <button class="btn-tl">
+                                    100 TL/ Saat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="card">
+                            <img src="https://picsum.photos/100/80"
+                                 class="card-img-top"
+                                 alt="Resim" />
+                            <div class="card-body">
+                                <h5 class="card-title">İsim Soyisim</h5>
+                                <p class="card-text">
+                                    Eğitmen<br />
+                                    Eğitim<br />
+                                </p>
+                                <button class="btn-tl">
+                                    100 TL/ Saat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+                <div class="courses-info">
+                    <p><a href="#">Tüm Uzmanları Görüntüle</a></p>
+                </div>
+            </div>
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="video-img" src="https://picsum.photos/550/400" />
+                        <div class="play-btn">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <div class="play-btn">
+                            <a class="btn btn-lg" href="#" data-toggle="modal" data-target="#videoModal">
+                                <img src="images/icons8-play-50.png" />
+                            </a>
+                        </div>
+                        <div class="shape10">
+                            <img src="images/shape9.png" alt="image">
+                        </div>
+                    </div>
+                        <div class="col-6">
+                            <div class="col-6-right">
+                                <h1 class="h1-green">UZMANLİO NEDİR?</h1>
+                                <h3>Bağımsız çalışma kültürünü destekleyen yeni nesil dijital hizmet platformu!</h3>
+                                <p>Uzmanlio, dilediğiniz zaman ve dilediğiniz yerden saniyeler içinde profesyonel online danışmanlık hizmeti alabileceğiniz, alanlarında uzman kişilere sorularınızı sorabileceğiniz ve onlardan hayatınızı kolaylaştıracak görüşler ve her konuda danışmanlık alabileceğiniz bir hizmet platformudur.</p>
+                                <p>Uzmanlio, uzman ve danışanları dijital mecralarda buluşturarak danışanlara zaman kazandırıp tecrübeye ve profesyonel danışmanlık hizmetlerine erişim sağlarken, uzmanlara ise özgürce hizmet verebilecekleri dijital çalışma ortamı sunar.</p>
+                                <button class="btn-hakkimizda">
+                                    Hakkımızda
+                                </button>
+                                <button class="btn-hakkimizda">
+                                    Nasıl Çalışır
+                                </button>
+                                <div class="shape3">
+                                    <img src="images/shape3.png" alt="image">
+                                </div>
+                                <div class="shape4">
+                                    <img src="images/shape4.png" alt="image">
+                                </div>
+                                <div class="shape2">
+                                    <img src="images/shape2.png" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="container mb-5">
+                <div class="row" style="background-color: #fffcf0">
+                    <div class="col-6">
+                        <div class="shape1" data-speed="0.06" data-revert="true">
+                            <img src="images/shape1.png" alt="image">
+                        </div>
+                        <img src="images/yol-gostericim.png" />
+                        <div class="shape11" data-speed="0.06" data-revert="true">
+                            <img src="images/shape10.png" alt="image">
+                        </div>
+                        <div class="shape12" data-speed="0.06" data-revert="true">
+                            <img src="images/shape11.png" alt="image">
+                        </div>
+                        <div class="shape9" data-speed="0.06" data-revert="true">
+                            <img src="images/shape8.svg" alt="image" />
+                        </div>
+                    </div>
+                    <div class="col-6 mt-5">
+                        <h1 class="h1-green">YOL GÖSTERİCİM YANIMDA</h1>
+                        <h3 class="h3-bold">Birlikte Daha Güçlüyüz</h3>
+                        <p>Sosyal sorumluluk hepimizin üzerine düşen bir görev. Platform olarak var olma amacımız, herkesin dilediği zaman ve dilediği yerde kaliteli profesyonel hizmetlere uygun fiyatla ulaşmasını sağlamak. Bu sebeple, danışmanlık ihtiyacı olan ama bir yol göstericisine erişim olmayan ihtiyaç sahibi kişilere ilham olmak istiyoruz.</p>
+                        <p>Bu bölümden yalnızca gerçek ihtiyaç sahiplerine hizmet verilecek olup, işbirliği halinde olduğumuz dernekler aracılığıyla gelen talepler veya başvuru formunu dolduran adaylara yardımcı olunacaktır.</p>
+                        <p>Durumunuzu bize iletin, inceleyerek en uygun uzmanla sizi buluşturalım!</p>
+                        <button class="btn-hakkimizda">
+                            Başvur
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-title">
+                <h1 class="h1-green">BLOG İÇERİKLERİ</h1>
+                <h3>En Son Yayınlananlar</h3>
+                <p>Uzmanlarımızdan güncel konuları ve en çok merak edilenleri takip edin!</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="col4-blog">
+                        <img src="https://picsum.photos/150/100"
+                             class="card-img-top"
+                             alt="Resim" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Kişisel Gelişim</h5>
+                        <p class="card-text">
+                            Astroloji ve Burç Yorumları
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <div class="col4-blog">
+                        <img src="https://picsum.photos/150/100"
+                             class="card-img-top"
+                             alt="Resim" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Kişisel Gelişim</h5>
+                        <p class="card-text">
+                            Astroloji ve Burç Yorumları
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <div class="col4-blog">
+                        <img src="https://picsum.photos/150/100"
+                             class="card-img-top"
+                             alt="Resim" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Kişisel Gelişim</h5>
+                        <p class="card-text">
+                            Astroloji ve Burç Yorumları
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12">
+            <div class="courses-info">
+                <p><a href="#">Tüm Blog İçeriklerini Görüntüle</a></p>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12">
+            <div class="destek">
+                <h3 class="h1-green">DAHA FAZLASINA İHTİYACINIZ VAR MI?</h3>
+                <h1 class="h1-destek">Destek Merkezine Gidin ya da</h1>
+                <h1 class="h1-destek">Bize Ulaşın</h1>
+                <p>Destek Merkezimize giderek, Sıkça Sorulan Soruları inceleyebilir, nasıl çalıştığına dair <br /> sorularınızı giderebilirsiniz</p>
+                <button class="btn-destek">
+                    Destek Merkezi
+                </button>
+                <button class="btn-destek">
+                    Bize Ulaşın
+                </button>
+                <div class="shape3">
+                    <img src="images/shape3.png" alt="image">
+                </div>
+                <div class="shape4">
+                    <img src="images/shape4.png" alt="image">
+                </div>
+                <div class="shape8">
+                    <img src="images/shape7.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <a href="#" class="footer-logo">
+                            <img src="images/logo.png">
+                        </a>
+                        <p>Alanında uzman kişilerin dijital buluşma noktası.</p>
+                        <p>
+                            <img src="images/icons8-phone-24.png" />
+                            <a class="tel" href="#"><b>555 555 55 55</b></a>
+                        </p>
+                        <p>
+                            <img src="images/icons8-email-30.png" />
+                            <a class="tel" href="#"><b>info@info.com</b></a>
+                        </p>
+                        <p><a href="#"><img width="60" height="80" src="images/etbisQR.jpg" alt="Etbis"></a></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget pl-5">
+                        <h3 class="h1-destek">Kategoriler</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="#">Psikoloji</a></li>
+                            <li><a href="#">Eğitim</a></li>
+                            <li><a href="#">Spor &amp; Beslenme</a></li>
+                            <li><a href="#">Kişisel Gelişim</a></li>
+                            <li><a href="#">Tasarım &amp; Teknoloji</a></li>
+                            <li><a href="#">İş &amp; Ticaret</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget pl-5">
+                        <h3 class="h1-destek">Kurumsal</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">İletişim</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget pl-5">
+                        <h3 class="h1-destek">Destek</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="#">Destek Merkezi</a></li>
+                            <li><a href="#">Nasıl Çalışır</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget pl-5 ">
+                        <h3 class="h1-destek">Takip Et</h3>
+                        <ul class="social-link">
+                            <li><a href="#"></a><img src="images/facebook.png" alt="facebook" style="width:30px"></li>
+                            <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+                            <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+                            <li><a href="#"><img src="images/linkedin.png" alt="linkedin"></a></li>
+                            <li><a href="#"><img src="images/youtube.png" alt="youtube"></a></li>
+                            <li><a href="#"><img src="images/whatsapp.png" alt="whatsapp"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-logos">
+                <img src="images/logo-band.png" alt="Logo" style="max-width:100%">
+            </div>
+            <div class="footer-bottom-area">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <p><i class="bx bx-copyright"></i>&copy; 2024 Tüm Hakları Saklıdır.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <ul>
+                            <li><a href="#">KVKK Aydınlatma Metni</a></li>
+                            <li><a href="#">KVKK Açık Rıza Metni</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Modal ile youtube videosu açmak -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel">Video</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/QUZocN5bjsQ?si=ErMoFg_f3L6noMOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        window.addEventListener('load', function () {
+            var line = document.getElementById('animatedLine');
+            line.style.width = '50%'; // Çizginin yarısına kadar genişlemesini sağlar
+        });
+    </script>
+
+    <!-- Modal için kullanılan jsler -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
